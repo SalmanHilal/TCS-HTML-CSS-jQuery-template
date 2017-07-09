@@ -1,0 +1,132 @@
+<!doctype html>
+<head>
+	<title>Contact Us - T C S
+	</title>
+	<link href="css/header-style.css" rel="stylesheet" type="text/css">
+	<link href="css/footer-style.css" rel="stylesheet" type="text/css">
+	<link href="css/contact-style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="UTF-8">
+	<script src="jquery-1.11.3.js"></script>
+
+<script>
+jQuery(document).ready(function ($) {
+
+  $('#contact-map').hide();
+  });
+  $(document).ready(function(){
+    $('#div2').click(function(){
+        $('#contact-map').show();
+		$('#contact-form').slideUp();
+		  });
+	  });
+   $(document).ready(function(){
+    $('#div1').click(function(){
+        $('#contact-map').slideUp();
+		$('#contact-form').show();
+});
+});
+</script>
+</head>
+<body>
+<div id="wrapper"><!--Wrapper Start-->
+<div id="header"><!--Header Start-->
+<div id="logo-img"><!--LOGO-->
+<a href="index.html"><img src="images/logo.jpg" width="160" height="100"></a>
+</div><!--LOGO End-->
+<div id="nav"><!--nav start-->
+<ul>
+        <li><a href="index.html">Home</a></li>
+         <li>
+            <a href="about.html">About &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="about.html#intro">Introduction</a></li>
+                <li><a href="about.html#vission">Vission & Mission</a></li>
+                <li><a href="about.html#values">Core Values</a></li>
+             </li></ul>
+        <li>
+            <a href="services.html">Services &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="services.html#int">International Services</a></li>
+                <li><a href="services.html#domestic">Domestic Services</a></li>
+                <li><a href="services.html#logistic">Logistics Services</a></li>
+             </li></ul>
+		<li><a href="offers.html">Offers & Promotions</a></li>	 
+		<li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</div><!--nav end-->
+</div><!--header end--><br clear="all">
+<h2 id="contact-h2">Contact Us</h2>
+<div id="container"><!--start container-->
+<div id="button-contact">
+<div id="div1">Send Us Message</div><div id="div2">Veiw Location Map</div>
+</div><br clear="all">
+<div id="contact-form"><!--start contact form-->
+<table><tr><td>
+<img src="images/contact-us.jpg" height="200" width="695">
+</td></tr></table>
+<form action="MAILTO:libra.salman94@gmail.com" method="post" enctype="text/plain">
+<table border="0px solid black">	
+	<tr><td><input type="text" name="name" required placeholder="Full Name" ></td>
+	<td><input type="email" name="email" required placeholder="Valid e-mail" id="emailadd"></td></tr>
+	<tr><td><select required>
+<option value="" selected>Gender &#9662;</option>
+<option value="Male" >Male</option>
+<option value="Female">Female</option>
+	</select></td>
+<div class="select-wrapper">
+<td><select  required>
+<option value="" selected>Select purpose  &#9662;</option>
+<option value="Feedback">Feedback</option>
+<option value="Inquiry">Inquiry</option>
+<option value="Complain">Complain</option>
+</select></div>		</td></tr></table>
+<table><tr><td>
+<textarea name="comment" placeholder="Enter your message" required></textarea>
+</td></tr></table>
+<table><tr><td id="td-btn">
+<input type="submit" value="Send Message" id="form-btn"></td>
+<td><input type="reset" value="Reset"  id="form-btn"></td></tr></table>
+
+	
+	</form>
+
+</div><!--end of contact-form-->
+
+<div id="contact-map">
+<table><tr><td>
+<img src="images/location-map.jpg" height="200" width="695">
+</td></tr></table>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14480.788527169752!2d67.0613062!3d24.8571159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c15e7ca14d04b83!2sPECHS+Trauma+Hospital!5e0!3m2!1sen!2s!4v1438962797985" width="695" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div id="address"><!--address start-->
+<br>
+<span>Address:</span>
+TCS Express & Logistics Center,
+TCS Headquarters,
+Iqbal Avenue.<br>
+Jinnah International Airport.
+Karachi,75202, Pakistan.<br>
+<span>E-mail:</span> info@tcs.com.pk<br>
+<span>Hazir:</span> 111-123-456	
+<br><br><br><br>
+</div><!--address end--><br clear="all">
+<a href="https://drive.google.com/file/d/0B33bGmfOjmcycWVpT3NPNU1Gazg/view?usp=sharing" style="text-decoration:none; color:black;">Download these webpages</a>
+</div><!--end container-->
+<div id="footer"><!--footer start-->
+<table>
+<tr>
+<td id="td1">Sign-Up to Our News & Offers Alerts</td>
+ 
+</tr>
+<tr>
+<td id="td1"><form><input type="email" name="email" required placeholder="Enter a valid email address" id="txtbox"><input type="submit" id="abc" value="Sign Up"><span id="space">s </span> </form>   </td>
+<td>
+<td>Designed by <a href="https://assignments-by-ajiz.firebaseapp.com">Salman Ahmed</a></td>
+</td>
+</table>
+</div><!--footer end-->
+</div>
+</body>
+</html>

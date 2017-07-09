@@ -1,0 +1,50 @@
+#footer{
+	background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
+    background-size: cover;
+	width: 980px;
+	height:200px;
+	margin:auto;
+	margin-bottom:-2px;
+	padding-bottom:0px;
+	color:white;
+	}
+#td1{
+	padding-left:10px;
+	padding-top:2px;
+	width:740px;
+	height:100%;
+	}
+#txtbox {
+	width:185px; height:17px; background-color:smokewhite; font-family:candara;color:black; font-size:18px 
+	margin: 0;
+	padding: 5px 5px 6px;
+	border: none;
+	}
+#abc{
+   align-items: flex-start;
+  text-align: center;
+  cursor: pointer;
+    -webkit-appearance: none;
+	  font-size: 12px;
+  padding: 7.5px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0px;
+  background-color: #444;
+  border: none;
+	}
+#abc:hover{
+	opacity: 0.8;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+	}
+#space{
+	color:black;
+		}
+#footer a{
+	color:white;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:skyblue;}

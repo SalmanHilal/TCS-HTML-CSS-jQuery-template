@@ -1,0 +1,105 @@
+#abouth3,#servicesh3,#offersh3,#careersh3,#contacth3{
+	background-color:#ff82a9;
+	color:black;
+	line-height:25px;
+	font-family:candara;
+	text-align:center;
+	border-radius: 0px;
+	
+	}
+#about,#services,#offers{
+	border:2px solid #ff0000;
+	height:320px;
+	width:311px;
+	float:left;
+	padding:2px;
+	margin:2px 2px 2px 4px;
+	border-radius: 0px;
+	background-color:#FCFCFC;
+	}
+#container p{
+font-family:Georgia, serif;
+margin:3px;
+text-align: justify;
+font-size:15px;
+line-height:20px;
+color:#676D6D;
+}
+#container2 p{
+font-family:Georgia, serif;
+margin:3px;
+text-align: justify;
+font-size:15px;
+line-height:20px;
+color:#676D6D;
+}
+#container p:hover{
+	color:#3E4444;
+}
+#container2 p:hover{
+	color:#3E4444;
+}
+#container2{
+	height:100%;
+	}
+#careers, #contact{
+	border:2px solid #ff0000;
+	height:320px;
+	width:311px;
+	float:left;
+	padding:2px;
+	border-radius:0px;
+		
+	}
+#careers {
+	margin:5px 2px 60px 165px;
+	}
+#contact{
+	margin:5px 2px 60px 4px;
+	}
+#about:hover{
+	border-style: solid;
+	border-color: #0000ff ;
+	border-radius: 10px;
+	cursor:pointer;
+	}
+#services:hover{
+	border-style: solid;
+	border-color:  #0000ff;
+	border-radius: 10px;
+	cursor:pointer;
+	}
+#offers:hover{
+	border-style: solid;
+	border-color: #0000ff;
+	border-radius: 10px;
+	cursor:pointer;
+	}
+#careers:hover{
+	border-style: solid;
+	border-color: #0000ff;
+	border-radius: 10px;
+	cursor:pointer;
+	}
+#contact:hover{
+	border-style: solid;
+	border-color: #0000ff;
+	border-radius: 10px;
+	cursor:pointer;
+	}
+#banner{
+padding:5px 2px ;
+}	
+
+.slider2 ul{
+	list-type: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+
+.slider{
+ margin: auto;
+ width: 972px;
+ height: 290px;	
+}

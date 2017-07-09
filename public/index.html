@@ -1,0 +1,198 @@
+<!doctype html>
+<head>
+	<title>Home - T C S
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="UTF-8">
+	<link href="css/header-style.css" rel="stylesheet" type="text/css">
+	<link href="css/index-style.css" rel="stylesheet" type="text/css">
+	<link href="css/footer-style.css" rel="stylesheet" type="text/css">
+	<script src="jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="jquery.cycle.all.js"></script> 
+<script language="javascript"></script>
+<script>
+$(document).ready(function(){
+    $('#about').mouseenter(function(){
+        $('#abouth3').css("border-radius", "10px");
+		$('#abouth3').css("background-color", "#9ad0f9");
+		$('#abouth3').css("color", "white");
+	});
+	$('#about').mouseleave(function(){
+       $('#abouth3').css("border-radius", "0px");
+	   $('#abouth3').css("background-color", "#ff82a9");
+	   $('#abouth3').css("color", "black");
+    });
+	 $('#services').mouseenter(function(){
+        $('#servicesh3').css("border-radius", "10px");
+		$('#servicesh3').css("background-color", "#9ad0f9");
+		$('#servicesh3').css("color", "white");
+	});
+	$('#services').mouseleave(function(){
+       $('#servicesh3').css("border-radius", "0px");
+	   $('#servicesh3').css("background-color", "#ff82a9");
+	   $('#servicesh3').css("color", "black");
+    });
+	 $('#offers').mouseenter(function(){
+        $('#offersh3').css("border-radius", "10px");
+		$('#offersh3').css("background-color", "#9ad0f9");
+		$('#offersh3').css("color", "white");
+	});
+	$('#offers').mouseleave(function(){
+       $('#offersh3').css("border-radius", "0px");
+	   $('#offersh3').css("background-color", "#ff82a9");
+	   $('#offersh3').css("color", "black");
+    });
+	$('#careers').mouseenter(function(){
+        $('#careersh3').css("border-radius", "10px");
+		$('#careersh3').css("background-color", "#9ad0f9");
+		$('#careersh3').css("color", "white");
+	});
+	$('#careers').mouseleave(function(){
+       $('#careersh3').css("border-radius", "0px");
+	   $('#careersh3').css("background-color", "#ff82a9");
+	   $('#careersh3').css("color", "black");
+    });
+	$('#contact').mouseenter(function(){
+        $('#contacth3').css("border-radius", "10px");
+		$('#contacth3').css("background-color", "#9ad0f9");
+		$('#contacth3').css("color", "white");
+	});
+	$('#contact').mouseleave(function(){
+       $('#contacth3').css("border-radius", "0px");
+	   $('#contacth3').css("background-color", "#ff82a9");
+	   $('#contacth3').css("color", "black");
+    });
+});
+$(document).ready(function(){
+	$('#slider1') .cycle({
+		fx: 'fade', //'scrollLeft,scrollDown,scrollRight,scrollUp',blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp,scrollDown,scrollLeft,scrollRight,scrollHorz,scrollVert,shuffle,slideX,slideY,toss,turnUp,turnDown,turnLeft,turnRight,uncover,ipe ,zoom
+		speed:  'slow', 
+   		timeout: 5000 
+	});
+});
+$(document).ready(function(){
+$("#about").on('click', function(){
+     window.location = "about.html";    
+});
+$("#services").on('click', function(){
+     window.location = "services.html";    
+});
+$("#offers").on('click', function(){
+     window.location = "offers.html";    
+});
+$("#contact").on('click', function(){
+     window.location = "contact.html";    
+});
+$("#careers").on('click', function(){
+     window.location = "careers.html";    
+});
+});
+</script>
+</head>
+<body>
+<div id="wrapper"><!--Wrapper Start-->
+<div id="header"><!--Header Start-->
+<div id="logo-img"><!--LOGO-->
+<a href="index.html"><img src="images/logo.jpg" width="160" height="100"></a>
+</div><!--LOGO End-->
+<div id="nav"><!--nav start-->
+<ul>
+        <li><a href="index.html">Home</a></li>
+         <li>
+            <a href="about.html">About &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="about.html#intro">Introduction</a></li>
+                <li><a href="about.html#vission">Vission & Mission</a></li>
+                <li><a href="about.html#values">Core Values</a></li>
+             </li></ul>
+        <li>
+            <a href="services.html">Services &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="services.html#int">International Services</a></li>
+                <li><a href="services.html#domestic">Domestic Services</a></li>
+                <li><a href="services.html#logistic">Logistics Services</a></li>
+             </li></ul>
+		<li><a href="offers.html">Offers & Promotions</a></li>	 
+		<li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</div><!--nav end-->
+</div><!--header end--><br clear="all">
+<div id="banner"><!--banner start-->
+<section>
+<div class="slider2">
+<div class="slider">
+<ul id="slider1">
+	<li><img border="0" src="images/1.jpg" width="970" height="290" alt="jQuery Image slider" title="jQuery Image slider" /></li>
+	<li><img border="0" src="images/2.jpg" width="970" height="290" alt="jQuery Image slider" title="jQuery Image slider" /></li>
+	<li><img border="0" src="images/3.jpg" width="970" height="290" alt="jQuery Image slider" title="jQuery Image slider" /></li>
+	<li><img border="0" src="images/4.jpg" width="970" height="290" alt="jQuery Image slider" title="jQuery Image slider" /></li>
+	<li><img border="0" src="images/5.jpg" width="970" height="290" alt="jQuery Image slider" title="jQuery Image slider" /></li>
+	<li><img border="0" src="images/6.jpg" width="970" height="290" alt="jQuery Image slider" title="jQuery Image slider" /></li>
+	
+</ul>
+</div>
+</div>
+</section>
+
+</div><!--banner end--><br clear="all">
+<div id="container"><!--container start-->
+<div id="about">
+<h3 id="abouth3">About Us</h3>
+<p>TCS provides domestic and international express services to consumers, corporate, SMEs and households alike with pickups and deliveries crossing over 125 million shipments annually. This it does, through a nationwide network of 157 offices, making TCS the biggest such network in Pakistan. TCS operates with around 8,000 professionals including self-employed Sales Solicitors, 24/7 state of the art call center, 722 plus conveniently located Express Centers, with a daily walk-in of 35,000 customers, dedicated chartered Boeing 737 aircraft...<br>
+<img src="images/mouse.png" width="16" height="17" alt="Click to explore.."> explore..
+</p></div>
+<div id="services">
+<h3 id="servicesh3">Services</h3>
+<p>
+TCS has a strong presence not only in Pakistan but also in the UAE, UK and Canada. TCS offers international delivery services - International Documents and Parcel Express Delivery - to over 3,500 destinations across the world through its extended International Network.TCS has emerged as the most trusted name for delivering a wide range of documents, packages, parcels and cargoes within Pakistan. Domestic Express Delivery Services include.Realizing the potentials of Supply Chain Management in Pakistan...<br>
+<img src="images/mouse.png" width="16" height="17" alt="Click to explore.."> explore..
+</p>
+</div>
+<div id="offers">
+<h3 id="offersh3">Offers & Promotions</h3>
+<p>
+Get a free KFC meal with every international parcel.<br><br>
+TCS delivers your applications, documents to Universities and Colleges anywhere in the World at an amazing price of $13.5+tax only.<br><br>
+First time in Pakistan, TCS brings you a comprehensive solution for your domestic heavy cargo transportation. TCS Cargo centre at Karachi, Lahore and now in Rawalpindi provides you pickup and delivery of heavy shipments for your household and commerce.<br>
+<img src="images/mouse.png" width="16" height="17" alt="Click to explore.."> explore..
+</p>
+</div>
+</div><!--container end--><br clear="all">
+<div id="container2"><!--container start-->
+<div id="careers">
+<h3 id="careersh3">Careers</h3>
+<p>
+With a track record of over three decades of industry recognition, accolades and success stories, TCS has steadfastly evolved into Pakistan's largest Express, Logistics and Supply Chain Company and is a symbol of trust & reliability.
+It is a company that has a global reach and presence as well as the means and the resources to propel your career into never-before ventured possibilities, a company that believes its people are its most valuable asset.
+Our enabling culture overwhelmingly supports new ideas, innovative thinking and initiative.<br>
+<img src="images/mouse.png" width="16" height="17" alt="Click to explore.."> explore..
+</p>
+</div>
+<div id="contact">
+<h3 id="contacth3">Contact Us</h3>
+<p>
+Give as your Feedback, Send your Inquiries Or any complain??<br><br>
+<img src="images/mouse.png" width="16" height="17" alt="Click to explore.."> Click to explore location map...<br><br>
+Address: TCS Express & Logistics Center, TCS Headquarters, Iqbal Avenue.<br>
+Jinnah International Airport. Karachi,75202, Pakistan.<br>
+E-mail: info@tcs.com.pk<br>
+Hazir: 111-123-456	
+
+</p>
+</div>
+</div><!--container2 end--><br clear="all">
+<div id="footer"><!--footer start-->
+<table>
+<tr>
+<td id="td1">Sign-Up to Our News & Offers Alerts</td>
+
+</tr>
+<tr>
+<td id="td1"><form><input type="email" name="email" required placeholder="Enter a valid email address" id="txtbox"><input type="submit" id="abc" value="Sign Up"><span id="space">s </span> </form>   </td>
+<td>Designed by <a href="https://assignments-by-ajiz.firebaseapp.com">Salman Ahmed</a></td>
+</table>
+</div><!--footer end--><br clear="all">
+</div><!--wrapper end-->
+</body>
+</html>

@@ -1,0 +1,251 @@
+#contact-h2{
+	background-color:red;
+	color:white;
+	line-height:25px;
+	font-family:candara;
+	text-align:center;
+	border-radius: 0px;
+	 }
+#container{
+	height:100%;
+	width: 980px;
+	}
+input[type="text"],
+	select,
+textarea {
+		-webkit-appearance: none;
+		background: rgba(144, 144, 144, 0.075);
+		border-radius: 4px;
+		border: none;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1em;
+		text-decoration: none;
+	}
+input, select, textarea {
+		font-size: 11pt;
+	}
+input[type="text"],
+	select {
+		height: 2.75em;
+	}
+input[type="text"]{
+		width:315px;
+		margin:2px 2px 2px 0px;
+	}
+iframe{
+padding-left:1px;
+margin-top:-4px;
+}
+::-webkit-input-placeholder {
+		color: #858585 !important;
+		opacity: 1.0;
+	}
+
+	:-moz-placeholder {
+		color: #858585 !important;
+		opacity: 1.0;
+	}
+
+	::-moz-placeholder {
+		color: #858585 !important;
+		opacity: 1.0;
+	}
+
+	:-ms-input-placeholder {
+		color: #858585 !important;
+		opacity: 1.0;
+	}
+
+	.formerize-placeholder {
+		color: #858585 !important;
+		opacity: 1.0;
+	}
+textarea {
+	margin:2px 2px 2px 0px;
+		padding: 0.75em 1em;
+		width:663px;
+		min-height:130px;
+		max-width:664px;
+	}
+input[type="text"]:focus,
+		select:focus,
+		textarea:focus {
+			border-color: blue;
+			box-shadow: 0 0 0 1px blue;
+			
+		}
+#emailadd{
+	width:315px;
+	margin:2px 2px 2px 0px;
+	height: 2.75em;
+	-webkit-appearance: none;
+		background: rgba(144, 144, 144, 0.075);
+		border-radius: 4px;
+		border: none;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1em;
+		text-decoration: none;
+}
+#emailadd:focus{
+	border-color: blue;
+	box-shadow: 0 0 0 1px blue;
+			
+}
+	.select-wrapper {
+		text-decoration: none;
+		display: block;
+		position: relative;
+	}
+
+		.select-wrapper:before {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.select-wrapper:before {
+			color: rgba(144, 144, 144, 0.25);
+			display: block;
+			height: 2.75em;
+			line-height: 2.75em;
+			pointer-events: none;
+			position: absolute;
+			right: 0;
+			text-align: center;
+			top: 0;
+			width: 2.75em;
+		}
+
+		.select-wrapper select::-ms-expand {
+			display: none;
+		}
+ select{
+		color: gray;
+		width:344px;
+		margin:2px 2px 2px 0px;
+}
+select:valid{
+color:black;
+}
+#button-contact{
+margin:0px auto;
+	width:750px;
+	height:100%;
+	padding-left:54px;
+}
+#div1, #div2{
+	width:345.5px;
+	padding:8px 1px 1px 1px;
+	text-align:center;
+	height:32px;
+	font-family:candara;
+	font-size:20px;
+	margin:0px auto;
+	float:left;
+	color: #fff;
+	background-color: #6496c8;
+	border: none;
+	box-shadow: 0 10px #27496d;
+}
+#div1{
+	border-radius:8px 0px 0px 0px;
+} 
+#div2{
+	border-radius:0px 8px 0px 0px;
+}
+#div1:hover{
+  background-color: #417cb8;
+  cursor:pointer;
+ }
+#div1:active{
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+#div2:hover{
+  background-color: #417cb8;
+  cursor:pointer;
+ }
+#div2:active{
+   background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+#contact-form{
+	margin:0px auto;
+	border:0px solid black;
+	width:700px;
+	height:100%;
+}
+#contact-map{
+	margin:0px auto;
+	border:0px solid black;
+	width:700px;
+	height:100%;
+}
+#address{
+	margin:0px auto;
+	border:0px solid black;
+	width:700px;
+	height:100%;
+	line-height:20px;
+	 font-family:"Times New Roman", Times, serif;
+		color:DimGray;
+		
+}
+
+
+#address span{
+	float:left;
+	margin:0 auto;
+ color:black;
+ padding:0px 2px 0px 0px;
+}
+#form-btn{
+	padding:5px 10px;
+	height:36px;
+	border-radius:8px;
+	font-family:candara;
+	font-size:17px;
+	margin:10px 2px 10px 2px;
+	
+	}
+input[type="submit"]{
+	border:2px solid #33CC33;
+	background-color:white;
+	color:#33CC33;
+}
+input[type="submit"]:hover{
+	border:2px solid #33CC33;
+	background-color:#33CC33;
+	color:white;
+	cursor:pointer;
+}
+input[type="reset"]{
+	border:2px solid #6699FF;
+	background-color:white;
+	color:#6699FF;
+}
+input[type="reset"]:hover{
+	border:2px solid #6699FF;
+	background-color:#6699FF;
+	color:white;
+	cursor:pointer;
+}
+#td-btn{
+	padding-left:10px;
+}
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+  outline: none
+}
+input[type="submit"]:active,
+input[type="reset"]:active{
+  opacity:0.7;
+}
